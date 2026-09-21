@@ -1,0 +1,99 @@
+Задача 1 
+
+#include <iostream> 
+
+  
+
+int main() { 
+
+    int a = 4; 
+
+    int b = 5; 
+
+  
+
+    std::cout << "Before: a = " << a << ", b = " << b << "\n"; 
+
+  
+
+    int tmp = a; 
+
+    a = b; 
+
+    b = tmp; 
+
+  
+
+    std::cout << "After:  a = " << a << ", b = " << b << "\n"; 
+
+    return 0; 
+
+} 
+
+Задача 2 
+
+#include <iostream> 
+
+  
+
+int main() { 
+
+    int n; 
+
+    std::cout << "Введите n, пожалуйста: "; 
+
+    std::cin >> n; 
+
+  
+
+    long long F = 1; 
+
+    long long fact = 1; 
+
+  
+
+    for (int i = 1; i <= n; i++) { 
+
+        fact = fact * i; 
+
+        F = F * fact; 
+
+    } 
+
+  
+
+    std::cout << "F(" << n << ") = " << F << std::endl; 
+
+  
+
+    return 0; 
+
+} 
+
+Задача 3 
+
+#include <iostream> 
+
+   
+
+int main() { 
+
+    int A; 
+
+    std::cout << "Введи 0 или 1: "; 
+
+    std::cin >> A; 
+
+  
+
+    int B = 2 - A; 
+
+  
+
+    std::cout << "B = " << B << "\n"; 
+
+    return 0; 
+
+} 
+
+ 
